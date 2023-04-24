@@ -1,0 +1,27 @@
+{
+  "ts-node": {
+    "compilerOptions": {
+      "typeRoots": ["./node_modules/@types"]
+    }
+  },
+  "compilerOptions": {
+    "allowJs": true,
+    "target": "ES2020",
+    "module": "Node16",
+    "moduleResolution": "node",
+    "useUnknownInCatchVariables": true,
+    "allowSyntheticDefaultImports": true,
+    "allowUnusedLabels": false,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "lib": ["ES2020"],
+    "noUnusedParameters": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "strict": true,
+    "exactOptionalPropertyTypes": true,
+    "resolveJsonModule": true,
+    "checkJs": true
+  },
+  "exclude": [".vscode/**/*", "test/coverage/**/*", "node_modules/**/*"]
+}
