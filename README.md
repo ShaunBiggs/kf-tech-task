@@ -21,6 +21,20 @@ In order to install the dependencies you can run the npm install command from th
 npm install
 ```
 
+#### Running the tests
+
+The script comes with a comprehensive suite of unit tests that provide full coverage. These tests utilise the [jest](https://jestjs.io/) testing suite. In order to run these you just need to send the following command in your terminal:
+
+```sh
+npm run test:unit
+```
+
+If you are making adjustments to the code these tests can be run in watch mode to help:
+
+```sh
+npm run test:unit:watch
+```
+
 #### Running the script
 
 Once dependencies have been installed you can now run the script via the command line with the following command, this command includes setting the above mentioned environment variables.
