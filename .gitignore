@@ -1,0 +1,12 @@
+#Dependencies
+node_modules/
+
+#Test outputs
+test
+
+#IDE files
+.vscode/
+
+#Env files
+.env
+.env.test
